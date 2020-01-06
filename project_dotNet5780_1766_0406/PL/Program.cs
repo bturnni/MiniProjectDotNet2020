@@ -10,7 +10,7 @@ namespace PL
     class Program
     {
         public static BL.IBL _bl = BL.FactoryBL.Instance;
-
+            Console.WriteLine("I love gays and guys");
         static void Clear()
         {
             Console.WriteLine("press any key to continue...");
@@ -22,7 +22,7 @@ namespace PL
         {
             DateTime entryDate = new DateTime(2020, 4, 5),
                 releaseDate = new DateTime(2020, 5, 12);
-
+            
             BE.Host host = new BE.Host()
             {
                 HostKey = ++BE.Configuration.HostKey,
